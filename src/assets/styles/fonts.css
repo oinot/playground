@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Aboreto;
+  src: url(../fonts/Aboreto/Aboreto-Regular.ttf);
+}
+@font-face {
+  font-family: Anonymous-regular;
+  src: url(../fonts/Anonymous_Pro/AnonymousPro-Regular.ttf);
+}
+@font-face {
+  font-family: BakBak;
+  src: url(../fonts/Backbak/BakbakOne-Regular.ttf);
+}
+@font-face {
+  font-family: Dosis;
+  src: url(../fonts/Dosis/Dosis-Regular.ttf);
+}
+@font-face {
+  font-family: Dosis-light;
+  src: url(../fonts/Dosis/Dosis-ExtraLight.ttf);
+}
+@font-face {
+  font-family: LaBelle;
+  src: url(../fonts/LaBelle/LaBelleAurore-Regular.ttf);
+}
+@font-face {
+  font-family: RobotRegular;
+  src: url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+  font-family: Source-code;
+  src: url(../fonts/Source_Code/SourceCodePro-Regular.ttf);
+}
+@font-face {
+  font-family: VT323;
+  src: url(../fonts/Vt323/VT323-Regular.ttf);
+}
+@font-face {
+  font-family: Wire-one;
+  src: url(../fonts/WireOne/WireOne-Regular.ttf);
+}
+

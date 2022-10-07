@@ -1,10 +1,14 @@
 <template>
-  <div class="hello"></div>
+  <h1 class="hello">sidebar</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+  Incidunt dolorum sit tenetur nostrum distinctio,
+  eveniet vitae vel tempore placeat non possimus,
+  beatae nobis, ut sequi aliquid alias veniam ad doloremque!</p>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'SideBar',
   props: {
     msg: String,
   },
