@@ -1,8 +1,32 @@
-h1 {
-  font-family: Bakbak;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-size: 18px;
 }
-p, a {
+
+h1 {
+  font-family: Bakbak;
+  color: rgb(255, 97, 96);
+  font-size: 1.4rem;
+}
+p {
   font-family: Anonymous-regular;
   font-size: 16px;
 }
+a {
+  font-family: RobotRegular;
+  color: rgb(255, 163, 0);
+  text-decoration: none;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+
+
+
