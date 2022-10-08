@@ -1,20 +1,30 @@
 <template>
   <div class="home">
-    <Sidebar />
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Sidebar
+      :is-sidebar-active="isSidebarActive"
+      :sidebar-toggle="toggleSidebar" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
 import Sidebar from '@/components/menu/SideBar.vue';
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld,
     Sidebar,
+  },
+
+  data() {
+    return {
+      isSidebarActive: true,
+    };
+  },
+  methods: {
+    toggleSidebar() {
+      this.isSidebarActive = !this.isSidebarActive;
+    },
   },
 };
 </script>

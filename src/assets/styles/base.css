@@ -1,10 +1,8 @@
 h1 {
   font-family: Bakbak;
-  font-size: 80px;
+  font-size: 18px;
 }
-p {
+p, a {
   font-family: Anonymous-regular;
-  font-size: x-large;
-  font-weight: bolder;
-  padding: 30px;
+  font-size: 16px;
 }
