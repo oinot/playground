@@ -1,34 +1,38 @@
 <template>
-  <h1 class="hello">sidebar</h1>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-  Incidunt dolorum sit tenetur nostrum distinctio,
-  eveniet vitae vel tempore placeat non possimus,
-  beatae nobis, ut sequi aliquid alias veniam ad doloremque!</p>
+  <div>
+  <div :class="['sidebar', isSidebarActive  ? '' : 'sidebar-hidden']">
+    <div class="sidebar">
+      <div class="sidebar-content">
+        <div class="sidebar-header">
+          <h1>Components</h1>
+        </div>
+        <div class="sidebar-body">
+          <ul>
+            <li class="sidebar-item">
+              <router-link to="/" disabled="isDisabled">
+                <span>code</span>
+              </router-link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'SideBar',
   props: {
-    msg: String,
+    isSidebarActive: {
+      type: Boolean,
+      default: null,
+    },
   },
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+@import "/src/assets/styles/sidebar/sidebar.css";
 </style>

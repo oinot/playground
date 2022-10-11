@@ -1,0 +1,14 @@
+.container {
+  padding: 0 20px;
+  background-color:rgba(41, 45, 62);
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  min-height: 105px;
+  flex-wrap: wrap;
+  word-break: break-all;
+  align-items: center;
+  border-bottom: 1px solid rgba(214, 73, 72, 0.4);
+}
