@@ -9,8 +9,8 @@
   width: calc(3rem * 6);
   height: 100vh;
   background-color: rgb(41, 45, 62);
-  border-right: 1px solid rgba(59, 97, 134, 0.2);
-  box-shadow: 1px 0px 2px rgba(59, 97, 134, 0.4);
+  border-right: 1px solid rgba(214, 73, 72, 0.4);
+  box-shadow: 1px 0px 2px rgba(214, 73, 72, 0.4);
   transition: .2s ease-in-out;
   z-index: 99;
   padding: 20px;
@@ -30,6 +30,7 @@
 }
 .sidebar-header {
   padding: 10px;
+  min-height: 85px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

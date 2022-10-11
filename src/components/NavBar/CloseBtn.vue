@@ -1,10 +1,8 @@
 <template>
-  <div>
     <button
-      class="btn btn-sm btn-link"
-      @click="sidebarToggle()">X
+      class="close"
+      @click="sidebarToggle()">
     </button>
-  </div>
 </template>
 
 <script>
@@ -20,7 +18,5 @@ export default {
 </script>
 
 <style scoped>
-button {
-  float: right;
-}
+@import "/src/assets/styles/navbar/closeBtn.css";
 </style>
