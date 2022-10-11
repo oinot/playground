@@ -6,7 +6,7 @@
   transform: translateX(0px);
   opacity: 1;
   visibility: visible;
-  width: calc(3rem * 6);
+  width: calc(3rem * 5);
   height: 100vh;
   background-color: rgb(41, 45, 62);
   border-right: 1px solid rgba(214, 73, 72, 0.4);

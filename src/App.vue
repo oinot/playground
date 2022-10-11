@@ -6,7 +6,7 @@
     @click="changeBtn()"
     :class="{ open: isOpen }"/>
   <nav-bar />
-  <router-view />
+  <router-view class="router-view"/>
 </template>
 <script>
 // @ is an alias to /src
