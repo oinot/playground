@@ -6,9 +6,19 @@
 .navbar {
   padding: 10px;
   display: flex;
+  justify-content: center;
   min-height: 105px;
   flex-wrap: wrap;
   word-break: break-all;
   align-items: center;
   border-bottom: 1px solid rgba(214, 73, 72, 0.4);
+}
+.title-playground {
+  font-size: 58px;
+  color: transparent ;
+  text-align: center;
+  font-style: italic;
+  border-bottom: 1px dashed;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(214, 73, 72);
 }
