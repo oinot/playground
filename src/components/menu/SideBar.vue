@@ -14,8 +14,8 @@
               </router-link>
             </li>
             <li class="sidebar-item">
-              <router-link to="/about" disabled="isDisabled">
-                <span>About</span>
+              <router-link to="/video-player" disabled="isDisabled">
+                <span>Video Player</span>
               </router-link>
             </li>
             <li class="sidebar-item">
