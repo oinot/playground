@@ -10,7 +10,17 @@
           <ul>
             <li class="sidebar-item">
               <router-link to="/" disabled="isDisabled">
-                <span>code</span>
+                <span>Home</span>
+              </router-link>
+            </li>
+            <li class="sidebar-item">
+              <router-link to="/about" disabled="isDisabled">
+                <span>About</span>
+              </router-link>
+            </li>
+            <li class="sidebar-item">
+              <router-link to="/buttons" disabled="isDisabled">
+                <span>Animated CSS Buttons</span>
               </router-link>
             </li>
           </ul>

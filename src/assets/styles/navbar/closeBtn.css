@@ -1,6 +1,6 @@
 
 /* remove html defaults on button*/
-button {
+.close {
   all: unset;
 	cursor: pointer;
   position: absolute;
