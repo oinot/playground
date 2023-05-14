@@ -19,8 +19,8 @@ export default {
       videoOptions: {
         autoplay: false,
         controls: true,
-        width: 720,
-        height: 480,
+        width: 600,
+        height: 338,
         sources: [
           {
             src: video,
@@ -33,7 +33,7 @@ export default {
 };
 </script>
 <style>
-@import "/node_modules/video.js/dist/video-js.css";
+@import "/src/components/videoJs/example/video-js.css";
 .video-player {
   display: flex;
   justify-content: center;
