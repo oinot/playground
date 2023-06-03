@@ -7,6 +7,13 @@ const routes = [
     component: HomeView,
   },
   {
+    path: '/Elements',
+    // route level code-splitting
+    // this generates a separate chunk (buttons.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "Elements" */ '../views/Elements.vue'),
+  },
+  {
     path: '/video-player',
     // route level code-splitting
     // this generates a separate chunk (video-player.[hash].js) for this route

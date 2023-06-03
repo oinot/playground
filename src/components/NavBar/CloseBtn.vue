@@ -1,6 +1,6 @@
 <template>
     <button
-      class="close"
+      class="close circle"
       @click="sidebarToggle()">
     </button>
 </template>
