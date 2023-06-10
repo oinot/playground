@@ -13,3 +13,15 @@ export default {
   },
 };
 </script>
+<style>
+
+html::-webkit-scrollbar {
+  width: 0;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>

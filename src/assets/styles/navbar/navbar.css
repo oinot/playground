@@ -1,24 +1,33 @@
+@import "/src/assets/styles/main/_base.css";
+
+
 .container {
-  padding: 0 20px;
-  background-color: var(--background)
+  background-color: var(--background);
+  height: var(--nav-height);
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  border-bottom: 0.2px solid var(--divider);
 }
 
-.navbar {
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  min-height: 105px;
-  flex-wrap: wrap;
-  word-break: break-all;
-  align-items: center;
-  border-bottom: 1px solid rgba(214, 73, 72, 0.4);
+.nav-logo {
+  width: 30px;
+  margin-inline-start: 30px ;
 }
-.title-playground {
-  font-size: 58px;
-  color: transparent ;
-  text-align: center;
-  font-style: italic;
-  border-bottom: 1px dashed;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgb(214, 73, 72);
+
+.nav-list {
+  display: flex;
+  margin-inline: 1rem;
+}
+
+.nav-link {
+  font-family: var(--ff-secondary);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-400);
+  color: var(--dark-primary);
+  margin-inline: 30px;
+  text-decoration: none;
 }

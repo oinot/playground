@@ -1,37 +1,47 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../views/HomeView.vue';
+import homeView from '../views/HomeView.vue';
 
 const routes = [
   {
     path: '/',
-    component: HomeView,
+    component: homeView,
   },
   {
-    path: '/Elements',
-    // route level code-splitting
-    // this generates a separate chunk (buttons.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    path: '/elements',
+    name: 'elements',
     component: () => import(/* webpackChunkName: "Elements" */ '../views/Elements.vue'),
+    children: [
+      {
+        path: 'video-player',
+        name: 'video-player',
+        component: () => import(/* webpackChunkName: "video-player" */ '../views/VideoPlayer.vue'),
+      },
+      {
+        path: 'buttons',
+        name: 'buttons',
+        component: () => import(/* webpackChunkName: "buttons" */ '../views/Buttons.vue'),
+      },
+    ],
   },
   {
-    path: '/video-player',
-    // route level code-splitting
-    // this generates a separate chunk (video-player.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "video-player" */ '../views/VideoPlayer.vue'),
+    path: '/about',
+    name: 'about',
+    component: () => import(/* webpackChunkName: "about" */ '../views/VideoPlayer.vue'),
   },
   {
-    path: '/buttons',
-    // route level code-splitting
-    // this generates a separate chunk (buttons.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "buttons" */ '../views/Buttons.vue'),
+    path: '/contact',
+    name: 'contact',
+    component: () => import(/* webpackChunkName: "contact" */ '../views/Buttons.vue'),
   },
+
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  scrollBehavior(savedPosition) {
+    return savedPosition || { top: 0 };
+  },
 });
 
 export default router;

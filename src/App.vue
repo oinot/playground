@@ -23,7 +23,7 @@ export default {
   },
   data() {
     return {
-      isSidebarActive: true,
+      isSidebarActive: false,
       isOpen: false,
     };
   },

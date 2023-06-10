@@ -1,21 +1,48 @@
 @import "./_variables.css";
 
-h1 {
-  font-family: Dosis;
-  color: var(--dark-primary);
-  font-size: 1.4rem;
-}
-p {
-  font-family: Dosis;
-  font-size: 16px;
-}
-a {
-  font-family: Dosis;
-  font-weight: 900;
-  color: var(--dark-primary);
-  text-decoration: none;
-  font-style: normal;
-}
+
+/* # Utility classes */
+/* ## Text Color */
+
+.text-clr-primary {color: var(--primary-text);}
+.text-clr-accent {color: var(--accent);}
+.text-clr-secondary {color: var(--secondary-text);}
+.text-clr-dark-primary {color: var(--dark-primary);}
+.text-clr-light-primary {color: var(--light-primary);}
+
+/* ## Backgroung Color */
+
+.bckg-accent {color: var(--accent);}
+.bckg-dark-primary {color: var(--dark-primary);}
+.bckg-light-primary {color: var(--light-primary);}
+
+/* ## Divider */
+
+.divider-clr {color: var(--divider);}
+
+/* ## Font weight */
+
+.fw-regular {font-weight: var(--fw-regular);}
+.fw-semi-bold {font-weight: var(--fw-semi-bold);}
+.fw-bold {font-weight: var(--fw-bold);}
+
+/* ## Font size */
+
+.fs-body {font-size: var(--fs-body);}
+.fs-nav {font-size: var(--fs-nav);}
+.fs-primary-heading {font-size: var(--fs-primary-heading);}
+.fs-secondary-heading {font-size: var(--fs-secondary-heading);}
+.fs-button {font-size: var(--fs-button);}
+
+.fs-300 {font-size: var(--fs-300);}
+.fs-400 {font-size: var(--fs-400);}
+.fs-500 {font-size: var(--fs-500);}
+.fs-600 {font-size: var(--fs-600);}
+.fs-700 {font-size: var(--fs-700);}
+.fs-800 {font-size: var(--fs-800);}
+.fs-900 {font-size: var(--fs-900);}
+
+/* ##  */
 
 li {
   list-style: none;
@@ -27,8 +54,7 @@ button {
 
 .router-view {
   background-color: var(--background);
-  height: 100vh;
-  width: 100%;
+  height: var(--view-height);
 }
 
 .container-flex {
