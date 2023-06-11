@@ -1,0 +1,155 @@
+.slider-container {
+    margin-inline: auto;
+    padding: 20px;
+  }
+  
+
+  .page-title {
+    margin: 0 0 4rem;
+  }
+  
+  .section-title {
+    margin-block: 4rem 1rem;
+  }
+  
+  /* media scroller
+    .media-container {
+      position: relative;
+      max-width: 1440px;
+    }
+  
+    .media-scroller,
+    .media-group {
+      display: grid;
+      gap: 0.25rem;
+      grid-auto-flow: column;
+    }
+  
+    .media-scroller::-webkit-scrollbar {
+      height: 0;
+    }
+  
+    .media-scroller {
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+      grid-auto-columns: 100%;
+      padding: 0 3rem;
+      scroll-padding-inline: 3rem;
+    }
+  
+    .media-element {
+      overflow: hidden;
+    }
+  
+    .media-element>img {
+      width: 100%;
+      height: 70px;
+      object-fit: contain;
+    }
+ */
+  .media-container {
+    position: relative;
+    max-width: 1440px;
+    overflow: hidden;
+  }
+
+  .media-scroller,
+  .media-group {
+    display: flex;
+    gap: 0.25rem;
+  }
+  
+  .media-scroller::-webkit-scrollbar {
+    height: 0;
+  }
+
+  .media-scroller {
+    overflow-x: scroll;
+    display:flex;
+    scroll-behavior: smooth;
+    padding: 0 3rem;
+  }
+  
+  .media-element {
+    overflow: hidden;
+    width: calc(100vw / 7);
+  }
+  
+  .media-element > img {
+    width: 100%;
+    height: 70px;
+    object-fit: contain;
+  }
+  
+  .next,
+  .previous {
+    display: none;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    width: 3rem;
+    padding: 1rem;
+    background: rgb(0 0 0 / 0);
+    opacity: 0;
+  }
+  
+  .previous {
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .next {
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .media-group:first-child :where(.next, .previous) {
+    display: flex;
+  }
+  
+  .media-scroller:hover :where(.next, .previous) {
+    opacity: 1;
+  }
+  
+  :where(.next, .previous):hover {
+    background: rgb(0 0 0 / 0.3);
+  }
+  
+  :where(.next, .previous) > svg {
+    transition: transform 75ms linear;
+    transform: scale(1);
+  }
+  :where(.next, .previous):hover > svg {
+    transform: scale(1.2);
+  }
+  
+  .media-group:target :where(.next, .previous) {
+    display: flex;
+  }
+  
+  .media-scroller:has(:target:not(:first-child))
+    .media-group:first-of-type
+    .next {
+    display: none;
+  }
+
+@media screen and (max-width: 40rem) {
+    .media-container {
+      position: relative;
+      max-width: 470px;
+      overflow: hidden;
+    }
+
+    .media-scroller:hover :where(.next, .previous) {
+      opacity: 0;
+      display: none;
+    }
+
+    .media-element {
+      width: calc(100vw / 2.4);
+      margin: 0;
+    }
+
+}

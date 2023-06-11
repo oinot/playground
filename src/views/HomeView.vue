@@ -20,8 +20,11 @@ html::-webkit-scrollbar {
 }
 
 .home {
+  background: var(--background);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 </style>

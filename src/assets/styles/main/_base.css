@@ -43,6 +43,34 @@
 .fs-900 {font-size: var(--fs-900);}
 
 /* ##  */
+html {
+  font-family: Dosis;
+
+}
+
+body {
+    overflow: hidden;
+}
+
+h1 {
+  font-family: BakBak;
+  font-weight: var(--fw-regular);
+  position: relative;
+  z-index: 1;
+}
+
+
+h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  opacity: 1;
+  z-index: -1;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+  background-color: var(--light-primary);
+}
 
 li {
   list-style: none;
