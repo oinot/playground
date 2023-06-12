@@ -1,0 +1,146 @@
+:root {
+  --ws-slider: 1300px;
+}
+
+.page-header {
+  width: 100%;
+  text-align: center;
+}
+
+.page-header > hr {
+  background-color: #d6d8d9 !important;
+}
+
+.page-title {
+  padding: 20px;
+  font-family: Barlow;
+  font-weight: 900 !important;
+  font-size: 38px !important;
+  line-height: 40px;
+  font-weight: bold;
+  margin: auto;
+  text-transform: uppercase;
+  color: black;
+}
+
+.section-title {
+  margin-block: 4rem 1rem;
+}
+
+.media-container {
+  position: relative;
+  margin-inline: auto;
+  max-width: var(--ws-slider);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.media-scroller,
+.media-group {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.media-scroller::-webkit-scrollbar {
+  height: 0;
+}
+
+.media-scroller {
+  overflow-x: scroll;
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+.media-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: calc(var(--ws-slider) / 5);
+}
+
+.media-element>img {
+  height: 70px;
+}
+
+.next,
+.previous {
+  display: none;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+
+  opacity: 0;
+}
+
+.previous {
+  left: 5px;
+  top: 0;
+  bottom: 0;
+}
+
+.next {
+  right: 5px;;
+  top: 0;
+  bottom: 0;
+}
+
+.media-group:first-child :where(.next, .previous) {
+  display: flex;
+}
+
+.media-scroller:hover :where(.next, .previous) {
+  opacity: 1;
+}
+
+
+:where(.next, .previous)>svg {
+  transition: transform 75ms linear;
+  transform: scale(1);
+}
+
+:where(.next, .previous):hover>svg {
+  transform: scale(1.2);
+}
+
+.media-group:target :where(.next, .previous) {
+  display: flex;
+}
+
+.media-scroller:has(:target:not(:first-child)) .media-group:first-of-type .next {
+  display: none;
+}
+
+@media screen and (max-width: 80rem) {
+  .page-title {
+    padding: 5px;
+    font-size: 32px !important;
+  }
+  
+  
+  .media-container {
+    max-width: 700px;
+  }
+}
+
+
+@media screen and (max-width: 30rem) {
+  .media-container {
+    max-width: 470px;
+  }
+
+  .media-scroller {
+    padding-inline: 1rem;
+  }
+
+  .media-scroller:hover :where(.next, .previous) {
+    opacity: 0;
+    display: none;
+  }
+
+  .media-element {
+    width: calc(100vw / 2.4);
+    margin: 0;
+  }
+
+}

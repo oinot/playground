@@ -1,11 +1,11 @@
 import { createApp } from 'vue';
-import base from '@/assets/styles/base.css';
-import fonts from './assets/styles/fonts.css';
+import source from '@/assets/styles/source.css';
+import { boxicons } from 'boxicons';
 import App from './App.vue';
 import router from './router';
 
 createApp(App)
   .use(router)
-  .use(base)
-  .use(fonts)
+  .use(source)
+  .use(boxicons)
   .mount('#app');
