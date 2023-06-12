@@ -1,7 +1,8 @@
 <template>
-     <header class="page-header">
-    <div class="slider-container flow">
-      <h1 class="page-title">{{ title }}</h1>
+  <header class="page-header">
+    <hr>
+    <div>
+      <h3 class="page-title">Nuestras marcas</h3>
     </div>
   </header>
   <div class="media-container">
@@ -9,158 +10,104 @@
 
       <!--   Group 1 -->
       <div class="media-group" id="group-1">
-        <a href="#" aria-label="Brand Logo">
+        <a href="https://www.bricodepot.es/marcas/blooma" draggable="false" aria-label="Blooma">
           <div class="media-element">
-            <img
-              src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-              alt="">
+            <img src="https://www.bricodepot.es/media/wysiwyg/Blooma_2.jpg" alt="Blooma" draggable="false">
           </div>
         </a>
-        <a href="#" aria-label="Brand Logo">
+        <a href="https://www.bricodepot.es/marcas/titan" draggable="false" aria-label="Titan">
           <div class="media-element">
-            <img
-              src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-              alt="">
+            <img src="https://www.bricodepot.es/media/wysiwyg/Titan-logo_6.jpg" alt="Titan" draggable="false" />
           </div>
         </a>
-              <a href="#" aria-label="Brand Logo">
+        <a href="https://www.bricodepot.es/marcas/verve" draggable="false" aria-label="Verve">
           <div class="media-element">
-            <img
-              src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-              alt="">
+            <img src="https://www.bricodepot.es/media/wysiwyg/Verve_2.jpg" alt="Verve" draggable="false" />
           </div>
         </a>
-        <a href="#" aria-label="Brand Logo">
+        <a href="https://www.bricodepot.es/marcas/magnusson" draggable="false" aria-label="Magnusson">
           <div class="media-element">
-            <img
-              src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-              alt="">
+            <img src="https://www.bricodepot.es/media/wysiwyg/Verve_Copy_2.jpg" alt="Magnusson" draggable="false" />
           </div>
         </a>
-        <a href="#" aria-label="Brand Logo">
+        <a href="https://www.bricodepot.es/marcas/cooke-lewis" draggable="false" aria-label="Cooke & Lewis">
           <div class="media-element">
-            <img
-              src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-              alt="">
+            <img src="https://www.bricodepot.es/media/wysiwyg/cooke_lewis_logo_2.png" alt="Cooke & Lewis" draggable="false">
           </div>
         </a>
         <a class="next" href="#group-2" aria-label="next">
-          <svg>
-              <symbol id="next" viewBox="0 0 256 512">
-                <path fill="white"
-            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9
-            0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3
-            103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
-      </symbol>
+          <svg id="next" width="24px" height="24px" viewBox="0 0 40 40">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g>
+                <circle fill="#222221" cx="20" cy="20" r="20"></circle>
+                <circle fill="#FFFFFF" cx="20" cy="20" r="9.33333333"></circle>
+                <g transform="translate(7.181412, 7.180532)" fill="#222221">
+                  <path d="M13.4890497,17.0220906 C13.2514181,17.2760673 12.9194883,17.4194006
+                        12.5724708,17.4194006 C12.2241959,17.4194006 11.8922661,17.2760673
+                        11.6546345,17.0220906 L4.92299708,9.84285088 L6.75741228,8.12159357
+                        L12.5724708,14.3239035 L18.3862719,8.12159357 L20.2206871,9.84285088
+                        L13.4890497,17.0220906 Z M12.5724708,0.000628654971
+                        C5.62834795,0.000628654971
+                        -0.000628654971,5.62834795 -0.000628654971,12.5724708
+                        C-0.000628654971,19.5153363 5.62834795,25.1430556
+                        12.5724708,25.1430556 C19.5140789,25.1430556
+                        25.1430556,19.5153363 25.1430556,12.5724708
+                        C25.1430556,5.62834795 19.5140789,0.000628654971
+                        12.5724708,0.000628654971 L12.5724708,0.000628654971 Z"
+                        transform="translate(12.571213, 12.571842) rotate(-90.000000)
+                        translate(-12.571213, -12.571842) ">
+                  </path>
+                </g>
+              </g>
+            </g>
           </svg>
         </a>
       </div>
       <!-- Group 2   -->
       <div class="media-group" id="group-2">
         <a class="previous" href="#group-1" aria-label="previous">
-          <svg>
-                <symbol id="previous" viewBox="0 0 256 512">
-        <path fill="white"
-          d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6
-          22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6
-          0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
-      </symbol>
+          <svg id="previous" width="24px" height="24px" viewBox="0 0 40 40">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g transform="translate(20.000000, 20.000000)
+                   scale(-1, 1) translate(-20.000000, -20.000000) ">
+                <circle fill="#222221" cx="20" cy="20" r="20"></circle>
+                <circle fill="#FFFFFF" cx="20" cy="20" r="9.33333333"></circle>
+                <g transform="translate(7.181412, 7.180532)" fill="#222221">
+                  <path d="M13.4890497,17.0220906 C13.2514181,17.2760673
+                        12.9194883,17.4194006 12.5724708,17.4194006
+                         C12.2241959,17.4194006 11.8922661,17.2760673
+                        11.6546345,17.0220906 L4.92299708,9.84285088 L6.75741228,8.12159357
+                        L12.5724708,14.3239035 L18.3862719,8.12159357 L20.2206871,9.84285088
+                        L13.4890497,17.0220906 Z M12.5724708,0.000628654971
+                        C5.62834795,0.000628654971
+                        -0.000628654971,5.62834795 -0.000628654971,12.5724708
+                        C-0.000628654971,19.5153363 5.62834795,25.1430556
+                        12.5724708,25.1430556 C19.5140789,25.1430556
+                        25.1430556,19.5153363 25.1430556,12.5724708
+                        C25.1430556,5.62834795 19.5140789,0.000628654971
+                        12.5724708,0.000628654971 L12.5724708,0.000628654971 Z"
+                        transform="translate(12.571213, 12.571842)
+                        rotate(-90.000000) translate(-12.571213, -12.571842) ">
+                  </path>
+                </g>
+              </g>
+            </g>
           </svg>
         </a>
-                <a href="#" aria-label="Brand Logo">
-            <div class="media-element">
-              <img
-                src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-                alt="">
-            </div>
-          </a>
-                <a href="#" aria-label="Brand Logo">
-            <div class="media-element">
-              <img
-                src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-                alt="">
-            </div>
-          </a>
-                <a href="#" aria-label="Brand Logo">
-            <div class="media-element">
-              <img
-                src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-                alt="">
-            </div>
-          </a>
-                <a href="#" aria-label="Brand Logo">
-            <div class="media-element">
-              <img
-                src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-                alt="">
-            </div>
-          </a>
-                <a href="#" aria-label="Brand Logo">
-            <div class="media-element">
-              <img
-                src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-                alt="">
-            </div>
-          </a>
-        <a class="next" href="#group-3" aria-label="next">
-          <svg>
-                <symbol id="next" viewBox="0 0 256 512">
-              <path fill="white"
-          d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9
-          0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3
-          103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
-      </symbol>
-          </svg>
+        <a href="https://www.bricodepot.es/marcas/erbauer" draggable="false" aria-label="Erbauer">
+          <div class="media-element">
+            <img
+              src="https://www.bricodepot.es/media/wysiwyg/erbauer_logo_2.png"
+              alt="Erbauer">
+          </div>
         </a>
-      </div>
-
-      <!-- Group 3   -->
-      <div class="media-group" id="group-3">
-        <a class="previous" href="#group-2" aria-label="previous">
-          <svg>
-                <symbol id="previous" viewBox="0 0 256 512">
-        <path fill="white"
-          d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6
-          22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6
-          0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
-      </symbol>
-          </svg>
+        <a href="https://www.bricodepot.es/marcas/evalux" draggable="false" aria-label="Evalux">
+          <div class="media-element">
+            <img
+              src="https://www.bricodepot.es/media/wysiwyg/evalux_logo_2_1.png"
+              alt="Evalux">
+          </div>
         </a>
-                <a href="#" aria-label="Brand Logo">
-            <div class="media-element">
-              <img
-                src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-                alt="">
-            </div>
-          </a>
-                <a href="#" aria-label="Brand Logo">
-            <div class="media-element">
-              <img
-                src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-                alt="">
-            </div>
-          </a>
-                <a href="#" aria-label="Brand Logo">
-            <div class="media-element">
-              <img
-                src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-                alt="">
-            </div>
-          </a>
-                <a href="#" aria-label="Brand Logo">
-            <div class="media-element">
-              <img
-                src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-                alt="">
-            </div>
-          </a>
-                <a href="#" aria-label="Brand Logo">
-            <div class="media-element">
-              <img
-                src="https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400"
-                alt="">
-            </div>
-          </a>
       </div>
     </div>
   </div>
@@ -170,7 +117,7 @@ export default {
   name: 'SliderOne',
   data() {
     return {
-      title: 'Netflix css only slider',
+      title: 'Nuestras marcas',
     };
   },
 };

@@ -1,16 +1,20 @@
 @import "/src/assets/styles/main/_base.css";
 
+.primary-header{
+  background-color: var(--background);
+  border-bottom: 0.2px solid var(--divider);
+}
 
 .container {
   background-color: var(--background);
   height: var(--nav-height);
-  
+  max-width: 1440px;
+  margin: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   
-  border-bottom: 0.2px solid var(--divider);
 }
 
 .nav-logo {
