@@ -1,19 +1,16 @@
 <template>
   <div class="home">
   <h1> {{ title }} </h1>
-  <SliderOne />
-  <SliderTwo />
+  <RadioCheckbox />
   </div>
 </template>
 <script>
-import SliderOne from '../components/Slider/One/SliderCss.vue';
-import SliderTwo from '../components/Slider/Two/SliderCss.vue';
+import RadioCheckbox from '../components/Accordion/RadioCheckbox.vue';
 
 export default {
   name: 'ElementsPage',
   components: {
-    SliderOne,
-    SliderTwo,
+    RadioCheckbox,
   },
   data() {
     return {
